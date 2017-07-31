@@ -38,4 +38,14 @@ namespace Bilres1_1 {
             x++
         }
     }
+
+    /**
+     * This function is here to generate random traffic
+     */
+    //%block
+    export function random_traffic() {
+        var all_possible_lines = [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 16, 17, 18, 20, 24]
+        let random_pick: number = Math.random(16)
+        return all_possible_lines[random_pick]
+    }
 }
