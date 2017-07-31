@@ -34,8 +34,8 @@ namespace Bilres1_1 {
             else {
                 led.plot(x,line_number)
             }
+            coded_line=coded_line-(coded_line%multiplikator)
             x++
         }
-        
     }
 }
