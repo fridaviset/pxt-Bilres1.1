@@ -4,6 +4,7 @@ namespace Bilres1_1 {
     /**
      * This function should detect the formation of cars on a given line and convert it to a number
      */
+    //%block
     export function code_line(line_number: number) {
         let multiplikator: number = 1
         let coded_line: number = 0
@@ -23,6 +24,7 @@ namespace Bilres1_1 {
     /**
      * This function should convert a number to a formation of cars on a horizontal line
      */
+    //%block
     export function decode_line(line_number: number, coded_line: number) {
         let x: number = 0
         let multiplikator: number = 1
